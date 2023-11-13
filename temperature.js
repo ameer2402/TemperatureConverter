@@ -9,6 +9,9 @@ const box1=document.querySelector(".box1");
 function changeBackground(div) {
     var gradient = window.getComputedStyle(div).backgroundImage;
     document.body.style.background = gradient;
+    icon2.style.display="block";
+    icon1.style.display="none";
+    body.style.color="black";
   } 
 icon1.addEventListener('click',()=>{
     body.style.background="linear-gradient(to right,#003973,#e5e5be)";
