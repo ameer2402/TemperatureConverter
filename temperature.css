@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background: linear-gradient(to right,#003973,#e5e5be);
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid black; */
+    justify-content: end;
+    align-items: center;
+   
+}
+.navbar{
+    margin-right: 30px;
+    
+    padding: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px currentColor;
+    
+}
+.wrapper{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    /* border: 2px solid rgb(7, 7, 7); */
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    /* border: 2px solid currentColor; */
+    
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    border: 2px solid currentColor;
+    box-shadow: 3px 5px 3px;
+}
+.container2{
+    display: flex;
+    /* flex-direction:column; */
+    align-items: center;
+    justify-content:end;
+    margin-right: 30px;
+    /* justify-content: center; */
+    width: 10%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+}
+.box-wrapper{
+    display: flex;
+    flex-direction:column;
+    
+    /* border-color: currentColor; */
+    border: 1px solid currentColor;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px;
+    /* border: 2px solid black; */
+    
+}
+.box{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 10px;
+    cursor:pointer;
+}
+@media only screen and (max-width: 636px){
+    .wrapper{
+        flex-direction: column;
+    }
+    .container1{
+        width: 100%;
+        padding: 10px;
+    }
+    .container2{
+        width: 100%;
+        height: 20%;
+        justify-content: center;
+    }
+    .box{
+        width: 20px;
+        height: 20px;
+    }
+    .box-wrapper{
+        flex-direction: row;
+    }
+
+
+}
+h1{
+    padding: 15px;
+    text-align: center;
+}
+.results{
+    text-align: center;
+    color: rgb(89, 75, 75);
+}
+.subcontainer1 h3{
+  margin-bottom: 10px;
+}
+.subcontainer2 h3{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items:first baseline;
+    height: 35%;
+    /* border: 2px solid black; */
+}
+button{
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 80%;
+    height: 10%;
+   border-radius: 15px;
+   cursor: pointer;
+   background-color: aqua;
+}
+h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.submit{
+    box-shadow: 0px 2px 3px rgb(127, 233, 233);
+}
